@@ -3,13 +3,21 @@
 }
 
 .card{
-    background-color: blue;
+    background-image: url("../img/dylan.png");
+    background-size: cover;
+    background-color: black;
     height: 100vh;
     width: 50%;
 }
 
 .card2{
-    background-color: red;
+    display: flex;
+    background-color: black;
+    color: grey;
+    font-size: 5rem;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 50%;
+
 }

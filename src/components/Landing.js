@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../img/dylan.png"
 import LandingCSS from "../css/landing.module.css"
 
 function Landing() {
@@ -9,7 +8,7 @@ function Landing() {
 
             </div>
             <div className={LandingCSS.card2}>
-
+                Dylan McAulay
             </div>
         </section>
     )
