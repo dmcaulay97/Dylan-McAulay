@@ -14,9 +14,6 @@ function Landing() {
 
         const overlay = document.getElementsByClassName(LandingCSS.overlay)
         overlay[0].className = `${LandingCSS.appear} ${LandingCSS.hidden} ${LandingCSS.overlay}`
-
-
-
     })
 
     return (
