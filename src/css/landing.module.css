@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+
+.card{
+    background-color: blue;
+    height: 100vh;
+    width: 50%;
+}
+
+.card2{
+    background-color: red;
+    height: 100vh;
+    width: 50%;
+}
