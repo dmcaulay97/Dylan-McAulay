@@ -29,9 +29,9 @@ function Landing() {
                     Contact Me
                 </div>
                 <div className={`${LandingCSS.links} ${LandingCSS.lazy}`}>
-                    <i class="fab fa-github" clannName={LandingCSS.icon}></i>
-                    <i class="fab fa-linkedin" clannName={LandingCSS.icon}></i>
-                    <i class="fas fa-file" clannName={LandingCSS.icon}></i>
+                    <i class="fab fa-github" className={LandingCSS.icon}></i>
+                    <i class="fab fa-linkedin" className={LandingCSS.icon}></i>
+                    <i class="fas fa-file" className={LandingCSS.icon}></i>
                 </div>
             </div>
         </section >
