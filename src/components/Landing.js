@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import LandingCSS from "../css/landing.module.css"
 
-
-
 function Landing() {
 
     useEffect(() => {

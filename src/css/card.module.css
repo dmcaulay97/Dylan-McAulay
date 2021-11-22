@@ -1,0 +1,13 @@
+.container{
+    width: 50%;
+    height: 200px;
+    background-color: red;
+    margin: 20px 40px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 75%;
+    }
+}
