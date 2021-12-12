@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+i:before {
+    margin: 0 2rem 0;
+}
+
+i:hover{
+    color: white;
+    cursor: pointer;
+}
+
