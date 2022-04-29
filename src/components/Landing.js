@@ -11,7 +11,7 @@ function Landing() {
         }
 
         const overlay = document.getElementsByClassName(LandingCSS.overlay)
-        overlay[0].className = `${LandingCSS.appear} ${LandingCSS.hidden} ${LandingCSS.overlay}`
+        overlay[0].className = `${LandingCSS.hidden} ${LandingCSS.overlay}`
     })
 
     return (
@@ -22,6 +22,9 @@ function Landing() {
             <div className={LandingCSS.card2}>
                 <div className={`${LandingCSS.title} ${LandingCSS.lazy}`}>
                     Dylan McAulay
+                </div>
+                <div className={`${LandingCSS.button} ${LandingCSS.lazy}`}>
+                    About Me
                 </div>
                 <div className={`${LandingCSS.button} ${LandingCSS.lazy}`}>
                     Contact Me

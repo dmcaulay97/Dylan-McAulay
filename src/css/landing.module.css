@@ -1,8 +1,8 @@
-.container{
+.container {
     display: flex;
 }
 
-.card1{
+.card1 {
     background-image: url("../img/dylan.png");
     background-size: 80vh;
     background-position: bottom center;
@@ -12,28 +12,28 @@
     width: 50%;
 }
 
-.overlay{
+.overlay {
     height: 100%;
     width: 100%;
     background-color: black;
 }
 
-.lazy{
+.lazy {
     opacity: 0;
 }
 
-.appear{
+.appear {
     opacity: 1;
     transition: opacity 3s ease-in-out;
 }
 
-.hidden{
+.hidden {
     opacity: 0;
     transition: opacity 2s ease-in-out;
 }
 
 
-.card2{
+.card2 {
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -44,15 +44,17 @@
 }
 
 
-.title{
+.title {
     color: grey;
-    font-size: 6rem;
+    font-size: 5rem;
     margin-bottom: 4rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
     cursor: default;
     text-align: center;
 }
 
-.button{
+.button {
     border-radius: 1rem;
     color: black;
     border: solid 1px grey;
@@ -60,49 +62,53 @@
     padding: 1rem;
     background-color: grey;
     margin-bottom: 4rem;
+    width: 20rem;
+    text-align: center;
 }
 
-.button:hover{
+.button:hover {
     background-color: white;
     cursor: pointer;
 }
 
-.links{
+.links {
     color: grey;
     font-size: 3rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    .container{
+    .container {
         flex-direction: column-reverse;
     }
 
-    .card1{
+    .card1 {
         width: 100%;
         height: 50vh;
         background-size: 60vh;
         background-position: center -10vh;
     }
 
-    .card2{
+    .card2 {
         width: 100%;
-        height: 50vh;
+        height: auto;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
-    .title{
-        font-size: 12vw;
+    .title {
+        font-size: 5rem;
         margin-bottom: 40px;
     }
 
-    .button{
-        font-size: 10vw;
+    .button {
+        font-size: 3rem;
     }
 
 }
 
-@media (max-width: 320px){ 
-    .links{
+@media (max-width: 320px) {
+    .links {
         display: flex;
         justify-content: center;
         align-items: center;
