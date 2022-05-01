@@ -24,7 +24,6 @@
     min-height: 50vh;
     width: 100%;
     height: 50%;
-    background-color: blue;
     display: flex;
 }
 
@@ -36,6 +35,8 @@
     text-align: center;
     padding: 0px 30px;
     padding-top: 3rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 .about {
@@ -45,6 +46,10 @@
     font-size: 1.8rem;
     margin-top: 40px;
     text-align: left;
+}
+
+.about:hover {
+    cursor: default;
 }
 
 @media (max-width: 1024px) {
@@ -69,5 +74,11 @@
     .work {
         flex-direction: column;
         width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        font-size: 1.6rem;
     }
 }
