@@ -43,6 +43,17 @@
     width: 50%;
 }
 
+.contact {
+    background-color: white;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+    border-radius: 2rem;
+    display: none;
+}
+
 
 .title {
     color: grey;
@@ -76,6 +87,23 @@
 .links {
     color: grey;
     font-size: 3rem;
+}
+
+.email {
+    font-size: 2rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    color: grey
+}
+
+.emailButton {
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: .2rem;
+}
+
+.emailTitle {
+    margin: 1rem auto;
 }
 
 @media (max-width: 768px) {

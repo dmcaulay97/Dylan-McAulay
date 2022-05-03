@@ -30,7 +30,7 @@ function About() {
     ]
 
     return (
-        <section className={AboutCSS.container}>
+        <section className={AboutCSS.container} id="about">
             <div className={AboutCSS.card1}>
                 <div className={AboutCSS.title}>
                     About Me
@@ -41,12 +41,12 @@ function About() {
             </div>
             <div className={AboutCSS.card2}>
                 <div className={AboutCSS.work}>
-                    <Card title='Vibez' id='work1' description={descriptions[0]} />
-                    <Card title='Pace Calculator' id='work1' description={descriptions[1]} />
+                    <Card title='Vibez' id='work1' description={descriptions[0]} link='https://thawing-shore-81087.herokuapp.com/' />
+                    <Card title='Pace Calculator' id='work1' description={descriptions[1]} link='https://dmcaulay97.github.io/Pace-calculator/' />
                 </div>
                 <div className={AboutCSS.work}>
-                    <Card title='Readme Generator' id='work1' description={descriptions[2]} />
-                    <Card title='Fun Finder' id='work1' description={descriptions[3]} />
+                    <Card title='Readme Generator' id='work1' description={descriptions[2]} link='https://github.com/dmcaulay97/readme-generator' />
+                    <Card title='Fun Finder' id='work1' description={descriptions[3]} link='https://dmcaulay97.github.io/fun-finder/homePage' />
                 </div>
             </div>
 
