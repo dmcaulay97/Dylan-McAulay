@@ -46,7 +46,7 @@ function About() {
                 </div>
                 <div className={AboutCSS.work}>
                     <Card title='Readme Generator' id='work1' description={descriptions[2]} link='https://github.com/dmcaulay97/readme-generator' />
-                    <Card title='Fun Finder' id='work1' description={descriptions[3]} link='https://dmcaulay97.github.io/fun-finder/homePage' />
+                    <Card title='Weather App' id='work1' description={descriptions[3]} link='https://dmcaulay97.github.io/weather-dashboard/' />
                 </div>
             </div>
 
