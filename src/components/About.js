@@ -20,7 +20,7 @@ function About() {
     })
 
     const descriptions = [
-        "A music playlist creation application powered by Youtube Music. Key Technologies: Third Party API's, Express, JavaScript, MVC Design Structure.",
+        "An Event search engine powered by the Ticket Master Api. Key Technologies: HTML, CSS, JavaScript, Bootstrap, Third Party API",
 
         "This application is designed to be used by runners looking to make pace calculations for races or training runs. Key Technologies: React, CSS, JavaScript",
 
@@ -41,7 +41,7 @@ function About() {
             </div>
             <div className={AboutCSS.card2}>
                 <div className={AboutCSS.work}>
-                    <Card title='Vibez' id='work1' description={descriptions[0]} link='https://thawing-shore-81087.herokuapp.com/' />
+                    <Card title='Fun Finder' id='work1' description={descriptions[0]} link='https://dmcaulay97.github.io/fun-finder/homePage' />
                     <Card title='Pace Calculator' id='work1' description={descriptions[1]} link='https://dmcaulay97.github.io/Pace-calculator/' />
                 </div>
                 <div className={AboutCSS.work}>
